@@ -27,7 +27,7 @@ public class ProductsViewModel extends ViewModel {
 
 
     void updateProduct(Product product, Boolean isFavorite) {
-        manager.updateFavorite(product.getProductId(), isFavorite, () -> {
+        manager.updatProduct(product.getProductId(), isFavorite, () -> {
 
             productsLiveData.setValue(manager.retrieveProducts());
 
