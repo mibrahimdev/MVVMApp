@@ -1,12 +1,12 @@
 package io.mibrahimdev.mvvmapp;
 
+import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.widget.Toast;
 
 import java.util.List;
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateProduct(Product product, Boolean isFavorite) {
-        manager.updateFavorite(product.getProductId(), isFavorite, () -> {
+        manager.updatProduct(product.getProductId(), isFavorite, () -> {
 
             productAdapter.submitList(manager.retrieveProducts());
 

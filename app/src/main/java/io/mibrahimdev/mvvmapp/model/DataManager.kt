@@ -14,7 +14,7 @@ object DataManager {
         return products?.values?.toList().orEmpty()
     }
 
-    fun updateFavorite(id: Int, isFavorite: Boolean, onSuccess: () -> Unit, onFailure: () -> Unit) {
+    fun updatProduct(id: Int, isFavorite: Boolean, onSuccess: () -> Unit, onFailure: () -> Unit) {
         val product = products?.get(id)
         product?.copy(isFavorite = isFavorite)?.let { products?.put(id, it) }
 
