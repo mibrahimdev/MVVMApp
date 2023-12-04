@@ -8,11 +8,11 @@ In this demo, we will refactor the provided code in the `main` branch to follow 
 
 #### Steps:
 
--[] Implement a new class called `ProductsViewModel` that extends `ViewModel`.
--[] Set up LiveData for the products result and an error message in `ProductsViewModel`.
--[] Implement a function in `ProductsViewModel` called `retrieveProducts` to display the list of products at the start of the app.
--[] Implement the `updateProduct` function in the `ProductsViewModel`. This function allows users to add a product to their favorites or remove it from their favorites.
--[] Remove any unnecessary code from the MainActivity.
+- [ ] Implement a new class called `ProductsViewModel` that extends `ViewModel`.
+- [ ] Set up LiveData for the products result and an error message in `ProductsViewModel`.
+- [ ] Implement a function in `ProductsViewModel` called `retrieveProducts` to display the list of products at the start of the app.
+- [ ] Implement the `updateProduct` function in the `ProductsViewModel`. This function allows users to add a product to their favorites or remove it from their favorites.
+- [ ] Remove any unnecessary code from the MainActivity.
 
 **Note:**
 When writing the MODEL code for business and data logic, use only the functions exposed by `DataManager`. Do not modify or write the code yourself.
