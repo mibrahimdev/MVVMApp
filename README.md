@@ -8,6 +8,9 @@ In this demo, we will refactor the provided code in the `main` branch to follow 
 
 #### Steps:
 
+- [ ] Add following dependencies `build.gradle` app file
+  - `implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'`
+  - `implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.2'`
 - [ ] Implement a new class called `ProductsViewModel` that extends `ViewModel`.
 - [ ] Set up LiveData for the products result and an error message in `ProductsViewModel`.
 - [ ] Implement a function in `ProductsViewModel` called `retrieveProducts` to display the list of products at the start of the app.
