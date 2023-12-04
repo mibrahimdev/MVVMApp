@@ -2,6 +2,9 @@
 
 This CodeLab demonstrates the MVVM architecture pattern in Android.
 
+<img width="1503" alt="Screenshot 2023-12-04 at 9 35 42 AM" src="https://github.com/mibrahimdev/MVVMApp/assets/12463348/8e84fbbb-99dd-4bda-9d35-45d14ce2a75e">
+
+
 ### Code Demo
 
 In this demo, we will refactor the provided code in the `main` branch to follow MVVM and discuss its benefits.
